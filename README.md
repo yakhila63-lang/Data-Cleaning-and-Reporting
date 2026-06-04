@@ -1,26 +1,20 @@
-# Data Cleaning and Reporting Dashboard 📊
+# 🚀 Sales Data Cleaning & Reporting Dashboard
 
-Automated Data Cleaning & Reporting Dashboard using Streamlit + Pandas.
+**Live App:** https://data-cleaning-and-reporting-nx3mokhj6m7yg9tv8klgdu.streamlit.app
 
-## ✨ Features
-- **Upload CSV**: Any sales/order data with OrderID, Product, Sales, Region
-- **Auto Clean**: 
-    - Remove duplicates based on OrderID
-    - Fill missing Sales → 0, Product → Unknown, Quantity → 1  
-    - Fix typos: Nrth → North
-- **Visualize**: Bar Chart + Pie Chart for region-wise sales
-- **Export**: Download Excel report with 2 sheets: `Cleaned_Data` + `Sales_Summary`
+A web application built with Python & Streamlit that automates sales data cleaning and generates professional Excel reports with visualizations.
 
-## 🛠️ Tech Stack
-Python, Pandas, Matplotlib, Streamlit, XlsxWriter
+### ✨ Features
+- 📤 **Upload Raw CSV:** Accepts any raw sales data CSV file
+- 🧹 **Automated Cleaning:** Removes duplicates, handles missing values, standardizes formats
+- 📊 **Instant Analytics:** Generates bar charts and pie charts for key insights
+- 📑 **Excel Reports:** Downloads a clean `.xlsx` file with formatted data and charts
+- ☁️ **Zero Setup:** 100% cloud-deployed, runs in any browser
 
-## ⚡ Quick Start - Run Locally
-```bash
-# 1. Clone repo
-git clone https://github.com/yakhila83-lang/Data-Cleaning-and-Reporting.git
+### 🛠️ Tech Stack
+- **Frontend & Deployment:** Streamlit, Streamlit Cloud
+- **Data Processing:** Python, Pandas
+- **Visualization:** Matplotlib
+- **Excel Generation:** OpenPyXL
 
-# 2. Install packages
-pip install -r requirements.txt
-
-# 3. Run app
-streamlit run app.py
+### 📂 Repository Structure
